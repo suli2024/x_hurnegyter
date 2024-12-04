@@ -1,0 +1,44 @@
+<!-- 
+File: negyszog.component.html
+Author: Erős István
+Copyright: 2024, Erős István
+Group: Szoft X
+Date: 2024-12-04
+Github: https://github.com/erosistvan/
+Licenc: GNU GPL
+-->
+
+<h1>Húrnégyszög</h1>
+
+<p>Húrnégyszög területének számítása</p>
+
+<div class="negyszogForm">
+  <div class="form-group">
+    <label for="aside">a:</label>
+    <input type="number" class="form-control" 
+    id="aside" [(ngModel)]="aside">
+  </div>
+  <div class="form-group">
+    <label for="bside">b:</label>
+    <input type="number" class="form-control" 
+    id="bside" [(ngModel)]="bside">
+  </div>
+  <div class="form-group">
+    <label for="cside">c:</label>
+    <input type="number" class="form-control" 
+    id="cside" [(ngModel)]="cside">
+  </div>
+  <div class="form-group">
+    <label for="dside">d:</label>
+    <input type="number" class="form-control" 
+    id="dside" [(ngModel)]="dside">
+  </div>
+  <div>
+    <button class="btn btn-primary my-3" (click)="startCalc()">Számít</button>
+  </div>
+  <div class="input-group">
+    <span class="input-group-text">Terület</span>
+    <input type="number" class="form-control" id="area" [(ngModel)]="area">
+    <span class="input-group-text">cm<sup>2</sup></span>
+  </div>
+</div>

@@ -1,1 +1,14 @@
+/*
+* File: style.css
+* Author: Erős István
+* Copyright: 2024, Erős István
+* Group: Szoft X
+* Date: 2024-12-04
+* Github: https://github.com/erosistvan/
+* Licenc: GNU GPL
+*/
+
+
 /* You can add global styles to this file, and also import other style files */
+
+@import 'bootstrap';
